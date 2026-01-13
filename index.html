@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="es-PE">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AR Process | Optimización de Procesos y TI</title>
+
+<meta name="description" content="AR Process ayuda a PYMES a reducir costos y aumentar productividad mediante optimización de procesos, automatización e IA aplicada al negocio. Consultoría senior en Perú.">
+
+<style>
+body{
+    margin:0;
+    font-family:'Segoe UI',Tahoma,sans-serif;
+    background:#f8fafc;
+    color:#1f2937;
+}
+section{
+    max-width:1200px;
+    margin:auto;
+    padding:90px 20px;
+}
+h1,h2,h3{letter-spacing:-0.5px}
+
+/* NAV */
+nav{
+    position:sticky;
+    top:0;
+    z-index:1000;
+    background:white;
+    box-shadow:0 6px 20px rgba(0,0,0,.08);
+}
+.nav-container{
+    max-width:1200px;
+    margin:auto;
+    padding:16px 20px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.nav-logo img{
+    height:48px;
+    width:auto;
+}
+.nav-links a{
+    margin-left:22px;
+    text-decoration:none;
+    font-weight:600;
+    color:#374151;
+}
+.nav-links a:hover{color:#1e40af}
+
+/* HERO */
+header{
+    background:linear-gradient(135deg,#0f172a,#1e40af);
+    color:white;
+    padding:130px 20px;
+}
+.hero{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:1.2fr .8fr;
+    gap:50px;
+    align-items:center;
+}
+.hero h1{font-size:3rem}
+.hero p{font-size:1.2rem;line-height:1.8}
+.hero img{
+    width:100%;
+    max-width:420px;
+    border-radius:22px;
+    box-shadow:0 25px 40px rgba(0,0,0,.25);
+}
+.cta a{
+    display:inline-block;
+    background:#22c55e;
+    color:#022c22;
+    padding:20px 40px;
+    border-radius:16px;
+    font-weight:800;
+    text-decoration:none;
+    margin-top:30px;
+    font-size:1.05rem;
+}
+.social-proof{
+    margin-top:18px;
+    font-size:.95rem;
+    opacity:.9;
+}
+
+/* TITLES */
+h2{
+    text-align:center;
+    margin-bottom:60px;
+    font-size:2.3rem;
+    color:#1e40af;
+}
+
+/* ABOUT */
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:45px;
+    align-items:center;
+}
+.profile-image{
+    display:flex;
+    justify-content:center;
+}
+.profile-image img{
+    max-width:380px;
+    width:100%;
+    border-radius:22px;
+    background:white;
+    padding:6px;
+    box-shadow:0 20px 35px rgba(0,0,0,.15);
+}
+blockquote{
+    margin:20px 0;
+    padding-left:18px;
+    border-left:4px solid #1e40af;
+    font-style:italic;
+}
+
+/* GRID */
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+}
+.card{
+    background:white;
+    padding:36px;
+    border-radius:22px;
+    box-shadow:0 15px 30px rgba(0,0,0,.08);
+}
+.card h3{color:#1e40af}
+.card ul{
+    padding-left:18px;
+    line-height:1.7;
+}
+
+/* ALT SECTION */
+.alt{
+    background:#f1f5f9;
+}
+
+/* FAQ */
+details{
+    background:white;
+    padding:28px;
+    border-radius:20px;
+    margin-bottom:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+}
+summary{
+    font-weight:700;
+    cursor:pointer;
+}
+
+/* CONTACT */
+.contact{
+    background:#0f172a;
+    color:white;
+    padding:90px 30px;
+    border-radius:28px;
+    text-align:center;
+}
+.contact p{opacity:.9}
+.contact a{
+    display:inline-block;
+    margin:18px;
+    padding:18px 40px;
+    border-radius:16px;
+    font-weight:800;
+    text-decoration:none;
+}
+.whatsapp{background:#22c55e;color:#022c22}
+.email{background:#1e40af;color:white}
+form{
+    max-width:420px;
+    margin:30px auto 0;
+}
+input,textarea{
+    width:100%;
+    padding:14px;
+    margin-bottom:14px;
+    border-radius:10px;
+    border:none;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:30px;
+    color:#6b7280;
+}
+
+/* RESPONSIVE */
+@media(max-width:900px){
+    .hero,.about{grid-template-columns:1fr;text-align:center}
+    .nav-links{display:none}
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="nav-container">
+<div class="nav-logo">
+    <img src="https://i.ibb.co/jk5PDxFP/logo-chico.jpg" alt="AR Process">
+</div>
+<div class="nav-links">
+<a href="#inicio">Inicio</a>
+<a href="#conocenos">Conócenos</a>
+<a href="#soluciones">Soluciones</a>
+<a href="#industrias">Industrias</a>
+<a href="#faq">FAQ</a>
+<a href="#contacto">Contáctanos</a>
+</div>
+</div>
+</nav>
+
+<header id="inicio">
+<div class="hero">
+<div>
+<h1>Automatiza tu operación y reduce costos operativos hasta en un 30%</h1>
+<p>
+Deja de perder tiempo en tareas manuales.
+Optimizamos procesos, automatizamos operaciones e integramos IA para que tu empresa gane eficiencia, control y rentabilidad.
+</p>
+<div class="cta">
+<a href="#contacto">Descubre cuánto puedes ahorrar hoy</a>
+</div>
+<div class="social-proof">
+Más de 15 años optimizando procesos y TI en empresas del Perú
+</div>
+</div>
+
+<img src="https://images.unsplash.com/photo-1556155092-8707de31f9c4" alt="Optimización de TI y procesos">
+</div>
+</header>
+
+<section id="conocenos">
+<h2>Conócenos</h2>
+<div class="about">
+<div class="profile-image">
+<img src="https://i.ibb.co/1fVqdZwp/Chat-GPT-Image-10-ene-2026-19-16-47.png" alt="Luis Alonso Álvarez Rivera">
+</div>
+<div>
+<p>
+<strong>AR Process</strong> es una consultoría de optimización de procesos y TI,
+liderada por <strong>Luis Alonso Álvarez Rivera</strong>,
+Ingeniero de Sistemas con más de <strong>15 años de experiencia</strong>.
+</p>
+<blockquote>
+“No se trata de implementar tecnología, sino de generar valor económico real y medible.”
+</blockquote>
+<p><a href="https://www.linkedin.com/in/luis-alonso-alvarez-rivera-b9b53193/" target="_blank">Ver perfil en LinkedIn</a></p>
+</div>
+</div>
+</section>
+
+<section id="soluciones" class="alt">
+<h2>Soluciones</h2>
+<div class="grid">
+<div class="card"><h3>⚙ Optimización de Procesos</h3><p>Eliminamos reprocesos, cuellos de botella y pérdidas operativas.</p></div>
+<div class="card"><h3>🤖 Automatización</h3><p>Reducimos trabajo manual, errores y tiempos muertos.</p></div>
+<div class="card"><h3>🧠 IA Aplicada</h3><p>Decisiones basadas en datos para crecer y proteger márgenes.</p></div>
+</div>
+</section>
+
+<section id="industrias">
+<h2>Industrias que Optimizamos</h2>
+<div class="grid">
+
+<div class="card">
+<h3>🎓 Educación</h3>
+<ul>
+<li>Automatización de admisiones, matrículas y pagos.</li>
+<li>Calificación automática y optimización de horarios.</li>
+<li>Análisis predictivo de deserción y retención.</li>
+<li>Dashboards para decisiones académicas y financieras.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🏥 Salud</h3>
+<ul>
+<li>Admisión y facturación más rápidas.</li>
+<li>Automatización de agendas y reportes.</li>
+<li>Menos errores administrativos.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>💼 Servicios Profesionales</h3>
+<ul>
+<li>Facturación y reportes automáticos.</li>
+<li>Control de tiempos y rentabilidad por cliente.</li>
+<li>Gestión documental centralizada.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🏭 Comercio y Manufactura</h3>
+<ul>
+<li>Inventarios optimizados.</li>
+<li>Reducción de mermas.</li>
+<li>Automatización de pedidos y ventas.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🍽 Restaurantes</h3>
+<ul>
+<li>Control de inventarios y desperdicios.</li>
+<li>Análisis de ventas por producto.</li>
+<li>Facturación y pedidos automáticos.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🏛 Municipalidades</h3>
+<ul>
+<li>Trámites digitales y expedientes.</li>
+<li>Dashboards de gestión pública.</li>
+<li>Reducción de tiempos de atención.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🚚 Logística y Transporte</h3>
+<ul>
+<li>Optimización de rutas.</li>
+<li>Control de flotas.</li>
+<li>Reducción de costos operativos.</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>🏢 Inmobiliarias y Constructoras</h3>
+<ul>
+<li>Control financiero de proyectos.</li>
+<li>Automatización de contratos y ventas.</li>
+<li>Seguimiento de proveedores.</li>
+</ul>
+</div>
+
+</div>
+</section>
+
+<section id="faq" class="alt">
+<h2>Preguntas Frecuentes</h2>
+<details><summary>¿Cuándo veré resultados?</summary><p>Generalmente entre 4 y 8 semanas.</p></details>
+<details><summary>¿Esto es costoso?</summary><p>La mayoría de proyectos se paga con los ahorros generados.</p></details>
+<details><summary>¿La automatización reemplaza personas?</summary><p>No. Libera tiempo para tareas de mayor valor.</p></details>
+</section>
+
+<section id="contacto">
+<div class="contact">
+<h2>Contáctanos</h2>
+<p>Respondemos en menos de 24 horas. Sin compromisos ni costos ocultos.</p>
+
+<form>
+<input type="text" placeholder="Nombre">
+<input type="text" placeholder="Empresa">
+<textarea placeholder="¿Qué proceso deseas optimizar?"></textarea>
+</form>
+
+<a class="whatsapp" href="https://wa.me/51998235775">📲 WhatsApp</a>
+<a class="email" href="mailto:luisar8919@hotmail.com">✉ Correo</a>
+</div>
+</section>
+
+<footer>
+© 2025 · AR Process · Optimización de Procesos y TI · Perú
+</footer>
+
+</body>
+</html>
